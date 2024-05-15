@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;    
+}
+
+.body-fruit-70{
+    background-image: url('../assets/img/background-opacity-70.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.body-fruit-90{
+    background-image: url('../assets/img/background-opacity-90.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.bodyCenter, .sectionCenter, .flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#button-initial-page{
+    margin-top: 30px;
+    width: 170px;
+    height: 40px;
+}
+
+#button-login-page{
+    margin-top: 60px;
+    width: 250px;
+    height: 40px;
+}
+
+.button-empty{
+    background: none;
+    border: #fff solid 3px;
+    border-radius: 31px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.button-empty:hover{
+    background: #000000;
+}
+
+.headerTitle{
+    height: 80px;
+}
+
+#searchFruitsContainer{
+    width: 100%;
+    height: 80px;
+}
+
+#searchFruitsGroup{
+    background: none;
+    border: #fff solid 3px;
+    border-radius: 31px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    width: 45%;
+    height: 50px;
+}
+
+#searchFruitsButton{
+    background: none;
+    border: none;
+    width: 80px;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 31px 0px 0px 31px;
+}
+
+#searchFruitsInput{
+    background: none;
+    border: none;
+    width: 60%;
+    color: #fff;
+    padding: 0px 20px 0px 20px;
+    flex-grow: 1;
+    border-radius: 0px 31px 31px 0px;
+    font-size: 20px;
+}
+
+.inputLogin{
+    background: none;
+    border: #fff solid 2px;
+    width: 60%;
+    color: #fff;
+    padding: 0px 20px 0px 20px;
+    border-radius: 31px;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.formLogin{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+#searchFruitsButton img{
+    width: 22px;
+}
+
+#searchFruitsGroup{
+    display: flex;
+}
+
+#containerFuits{
+    width: 100%;
+    height: 75%;
+    padding: 100px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.boxFruit{
+    background-color: #DBDBDB;
+    width: 250px;
+    height: 220px;
+    border-radius: 31px;
+    margin: 0 50px 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.boxBuyButton{
+    border: none;
+    background: #fff;
+    width: 100%;
+    height: 30px;
+    border-radius: 0px 0px 31px 31px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
+.descriptionFruit{
+    height: 15px;
+    width: 100%;
+}
+
+.imageFruit{
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 31px 31px 0px 0px;
+}
+
+#image-banana{
+    background-image: url('../assets/img/bananas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#image-kiwi{
+    background-image: url('../assets/img/kiwi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#image-maca{
+    background-image: url('../assets/img/macas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#image-jabuticaba{
+    background-image: url('../assets/img/jabuticaba.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#image-melao{
+    background-image: url('../assets/img/melao.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#image-abacaxi{
+    background-image: url('../assets/img/abacaxi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#image-goiaba{
+    background-image: url('../assets/img/goiaba.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#image-melancia{
+    background-image: url('../assets/img/melancia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#image-morango{
+    background-image: url('../assets/img/morango.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#image-uva{
+    background-image: url('../assets/img/uva.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.fruitLink{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.linkLogin{
+    margin-top: 7px;
+}
+
+.displayNone{
+    display: none;
+}
+
+#sectionQuantity{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerQuantity{
+    background-color: #DBDBDB;
+    width: 70%;
+    height: 90%;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5%;
+}
+
+
+#containerBotoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textQuantity{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.buttonQuantity{
+    width: 170px;
+    height: 40px;
+    background: none;
+    border: #fff solid 3px;
+    border-radius: 31px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.buttonQuantity:hover{
+    background: #000000;
+    color: #fff;
+}
+
+.buttonArrow{
+    border-radius: 31px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+.backLink{
+    width: 100%;
+}
+
+#infoShopping{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#containerShopping{
+    width: 80%;
+    height: 70%;
+    flex-direction: column;
+    overflow-y: scroll;
+    
+}
+
+.containerTransaction{
+    background-color: #DBDBDB;
+    width: 90%;
+    height: 60px;
+    border-radius: 31px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#shoppingTotalValue{
+    color: #fff;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.textInfoTransaction{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.imageDump{
+    width: 30px;
+}
+
+.buttonDump{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.containerLink{
+    width: 100%;
+    padding: 0 20px;
+}
